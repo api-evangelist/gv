@@ -1,0 +1,82 @@
+aid: gv
+name: GV
+description: >-
+  GV (formerly Google Ventures) is the venture capital arm of Alphabet, founded in 2009 by Bill Maris and
+  headquartered in the San Francisco Bay Area with additional offices in New York, Cambridge, and London.
+  With Alphabet as its sole limited partner, GV operates with the reliability of a single LP, the autonomy of
+  a traditional venture firm, and deep technical expertise, investing from seed through growth stage across
+  technology and life sciences. Its focus areas span AI, enterprise, consumer, frontier tech, and life
+  sciences, with a heavy recent emphasis on the AI frontier, from applications and developer tools to
+  infrastructure and healthcare. GV manages over $13 billion in assets and supports roughly 400 active
+  portfolio companies across North America, Europe, and Israel. The firm has backed notable companies
+  including Uber, Slack, GitLab, Nest, Flatiron Health, Lemonade, Vercel, Isomorphic Labs, and insitro,
+  with a track record of more than 80 IPOs and 230+ M&A exits.
+image: https://www.gv.com/favicon.png
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Growth Equity
+  - Artificial Intelligence
+  - Life Sciences
+  - Enterprise
+  - Consumer
+  - Developer Tools
+  - Infrastructure
+  - Healthcare
+  - Frontier Tech
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://www.gv.com/
+  - type: Portfolio
+    url: https://www.gv.com/portfolio
+  - type: Portfolio
+    url: portfolio/gv-portfolio.yml
+  - type: Team
+    url: https://www.gv.com/team?team=investing-team
+  - type: Team
+    url: team/gv-team.yml
+  - type: InvestmentThesis
+    url: https://www.gv.com/about
+  - type: News
+    url: https://www.gv.com/news
+  - type: News
+    url: https://www.gv.com/press
+  - type: Jobs
+    url: https://jobs.gv.com
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/google-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/gvteam/
+  - type: Twitter
+    url: https://www.twitter.com/gvteam
+  - type: Features
+    data:
+      - "Stage: Seed, Venture (Series A+), Growth"
+      - "Sectors: AI, Enterprise, Consumer, Frontier Tech, Life Sciences"
+      - "Geography: North America, Europe, Israel"
+      - "AUM: $13B+ (self-reported)"
+      - "Portfolio: ~400 active portfolio companies"
+      - "Limited Partner: Alphabet (sole LP)"
+      - "Exits: 80+ IPOs, 230+ M&A"
+      - "Founded: 2009"
+      - "HQ: San Francisco Bay Area (offices in New York, Cambridge, London)"
+    sources:
+      - https://www.gv.com/about
+      - https://en.wikipedia.org/wiki/GV_(company)
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: GV
+    url: https://www.gv.com/
