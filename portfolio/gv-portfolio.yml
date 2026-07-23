@@ -3,9 +3,9 @@ method: searched
 source: https://www.gv.com/portfolio
 summary:
   portfolio_total: 661
-  in_network: 143
-  api_providers: 88
-  missing: 518
+  in_network: 661
+  api_providers: 121
+  missing: 0
   stubs_created: 0
 companies:
 - name: 23andMe *
@@ -13,17 +13,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 23andme
+  slug: 23andme
+  matched_by: domain
 - name: 99 Counties
   url: http://99counties.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 99-counties
+  slug: 99-counties
+  matched_by: domain
 - name: Abacus *
   url: http://abacus.com
   sector: enterprise
@@ -38,9 +40,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aboutme
+  slug: aboutme
+  matched_by: domain
 - name: Acalvio
   url: http://acalvio.com
   sector: enterprise
@@ -49,189 +52,212 @@ companies:
   slug: acalvio
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Accent Therapeutics
   url: http://accenttx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: accent-therapeutics
+  slug: accent-therapeutics
+  matched_by: domain
 - name: Adagio Therapeutics *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adagio-therapeutics
+  slug: adagio-therapeutics
+  matched_by: name-slug
 - name: Adapter
   url: https://www.adapter.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: adapter
+  in_network: true
+  is_api_provider: true
+  slug: adapter
+  matched_by: domain
 - name: Adelphic Mobile *
   url: http://adelphic.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adelphic-mobile
+  slug: adelphic-mobile
+  matched_by: domain
 - name: Aera Therapeutics
   url: https://aeratx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aera-therapeutics
+  slug: aera-therapeutics
+  matched_by: domain
 - name: Affinia Therapeutics
   url: http://affiniatx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: affinia-therapeutics
+  slug: affinia-therapeutics
+  matched_by: domain
 - name: Again
   url: https://again.bio
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: again
+  slug: again
+  matched_by: domain
 - name: Agtonomy
   url: http://agtonomy.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agtonomy
+  slug: agtonomy
+  matched_by: domain
 - name: Ahana *
   url: http://ahana.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ahana
+  slug: ahana
+  matched_by: domain
 - name: Air Protein
   url: http://airprotein.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: air-protein
+  slug: air-protein
+  matched_by: domain
 - name: Airtime
   url: http://airtime.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airtime
+  slug: airtime
+  matched_by: domain
 - name: Alector
   url: http://alector.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alector
+  slug: alector
+  matched_by: domain
 - name: Aledade
   url: https://aledade.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aledade
+  slug: aledade
+  matched_by: domain
 - name: Alethea
   url: https://alethea.com/
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alethea
+  slug: alethea
+  matched_by: domain
 - name: Alkira
   url: https://www.alkira.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alkira
+  slug: alkira
+  matched_by: domain
 - name: Allara Health
   url: https://www.allarahealth.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: allara-health
+  slug: allara-health
+  matched_by: domain
 - name: Altana AI
   url: http://altana.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: altana-ai
+  slug: altana-ai
+  matched_by: domain
 - name: AltspaceVR *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: altspacevr
+  slug: altspacevr
+  matched_by: name-slug
 - name: Ambition
   url: http://ambition.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ambition
+  slug: ambition
+  matched_by: name-slug
 - name: AMP Robotics
   url: http://amprobotics.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amp-robotics
+  slug: amp-robotics
+  matched_by: domain
 - name: AMP Robotics
   url: https://ampsortation.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio?sector=ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amp-robotics
+  slug: amp-robotics
+  matched_by: name-slug
 - name: Anchor *
   url: http://anchor.fm
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anchor
+  slug: anchor
+  matched_by: domain
 - name: Andela
   url: http://andela.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andela
+  slug: andela
+  matched_by: domain
 - name: AngelList
   url: http://angel.co
   sector: enterprise
@@ -246,9 +272,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ankyra-therapeutics
+  slug: ankyra-therapeutics
+  matched_by: domain
 - name: Anomali
   url: http://anomali.com
   sector: enterprise
@@ -257,70 +284,78 @@ companies:
   slug: anomali
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Antiva Biosciences
   url: http://antivabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antiva-biosciences
+  slug: antiva-biosciences
+  matched_by: domain
 - name: Apptentive *
   url: http://apptentive.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: apptentive
+  in_network: true
+  is_api_provider: true
+  slug: apptentive
+  matched_by: domain
 - name: Apptimize *
   url: http://apptimize.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: apptimize
+  in_network: true
+  is_api_provider: true
+  slug: apptimize
+  matched_by: domain
 - name: Appurify *
   url: http://appurify.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appurify
+  slug: appurify
+  matched_by: domain
 - name: Apteligent *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apteligent
+  slug: apteligent
+  matched_by: name-slug
 - name: Arcus Biosciences *
   url: http://arcusbio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arcus-biosciences
+  slug: arcus-biosciences
+  matched_by: domain
 - name: Arda Therapeutics
   url: http://ardatherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arda-therapeutics
+  slug: arda-therapeutics
+  matched_by: name-slug
 - name: Areteia Therapeutics
   url: https://areteiatx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: areteia-therapeutics
+  slug: areteia-therapeutics
+  matched_by: domain
 - name: Armadin
   url: https://www.armadin.com
   sector: ai
@@ -329,60 +364,67 @@ companies:
   slug: armadin
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: ARMO BioSciences *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: armo-biosciences
+  slug: armo-biosciences
+  matched_by: name-slug
 - name: Arrakis
   url: http://arrakistx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrakis
+  slug: arrakis-therapeutics
+  matched_by: domain
 - name: Arsanis *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arsanis
+  slug: arsanis
+  matched_by: name-slug
 - name: Artifact
   url: https://heyartifact.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: artifact
+  slug: artifact
+  matched_by: domain
 - name: Aspen Neuroscience
   url: aspenneuroscience.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aspen-neuroscience
+  slug: aspen-neuroscience
+  matched_by: domain
 - name: Aspire Health *
   url: http://aspirehealthcare.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aspire-health
+  slug: aspire-health
+  matched_by: domain
 - name: Astrid *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astrid
+  slug: astrid
+  matched_by: name-slug
 - name: Attio
   url: https://attio.com
   sector: ai
@@ -397,18 +439,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autolus
+  slug: autolus
+  matched_by: domain
 - name: Basis
   url: https://www.getbasis.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: basis
+  slug: getbasis
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
 - name: BBOT
   url: https://bbotx.com
   sector: life-sciences
@@ -423,17 +466,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beacon-biosignals
+  slug: beacon
+  matched_by: domain
 - name: Beam Therapeutics *
   url: http://beamtx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beam-therapeutics
+  slug: beam-therapeutics
+  matched_by: domain
 - name: Beamable
   url: http://beamable.com
   sector: consumer
@@ -448,25 +493,28 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: benson-hill
+  slug: benson-hill
+  matched_by: name-slug
 - name: Biomodal
   url: https://biomodal.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: biomodal
+  slug: biomodal
+  matched_by: domain
 - name: Bitterroot Bio
   url: https://brbio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitterroot-bio
+  slug: bitterroot-bio
+  matched_by: domain
 - name: Blacksmith
   url: https://www.blacksmith.sh/
   sector: enterprise
@@ -474,32 +522,35 @@ companies:
   source: https://www.gv.com/portfolio
   slug: blacksmith-sh
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: BlackThorn Therapeutics *
   url: https://neumoratx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blackthorn-therapeutics
+  slug: blackthorn-therapeutics
+  matched_by: domain
 - name: Blavity
   url: http://blavity.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blavity
+  slug: blavity
+  matched_by: name-slug
 - name: Blockaid
   url: https://www.blockaid.io
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blockaid
+  in_network: true
+  is_api_provider: true
+  slug: blockaid
+  matched_by: domain
 - name: Blockchain
   url: https://www.blockchain.com
   sector: consumer
@@ -514,71 +565,80 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloom-institute-of-technology
+  slug: bloom-institute-of-technology
+  matched_by: domain
 - name: Blue Bottle Coffee *
   url: https://www.bluebottlecoffee.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-bottle-coffee
+  slug: bluebottlecoffee
+  matched_by: domain
 - name: Blue Vision Labs *
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-vision-labs
+  slug: blue-vision-labs
+  matched_by: name-slug
 - name: Blue Water Autonomy
   url: https://www.blw.ai
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-water-autonomy
+  slug: blue-water-autonomy
+  matched_by: domain
 - name: Bonnet
   url: http://joinbonnet.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bonnet
+  slug: bonnet
+  matched_by: domain
 - name: Bounti
   url: https://www.bounti.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bounti
+  in_network: true
+  is_api_provider: true
+  slug: bounti
+  matched_by: domain
 - name: Brightline
   url: http://hellobrightline.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightline
+  slug: brightline
+  matched_by: domain
 - name: Buena
   url: https://buena.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buena
+  slug: buena
+  matched_by: domain
 - name: BufferBox *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bufferbox
+  slug: bufferbox
+  matched_by: name-slug
 - name: Bugsnag *
   url: http://bugsnag.com
   sector: enterprise
@@ -602,95 +662,107 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cacheflow
+  slug: cacheflow
+  matched_by: domain
 - name: Cala Health
   url: http://calahealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cala-health
+  slug: cala-health
+  matched_by: domain
 - name: Cambly
   url: http://cambly.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cambly
+  slug: cambly
+  matched_by: domain
 - name: Cameo
   url: https://www.cameo.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cameo
+  slug: cameo
+  matched_by: domain
 - name: Caraway Health *
   url: https://www.summerhealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caraway-health
+  slug: summer-health
+  matched_by: domain
 - name: Carbon
   url: http://carbon3d.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carbon
+  slug: carbon
+  matched_by: domain
 - name: Cardurion Pharmaceuticals
   url: https://cardurion.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cardurion-pharmaceuticals
+  slug: cardurion-pharmaceuticals
+  matched_by: domain
 - name: CareBridge *
   url: http://carebridgehealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carebridge
+  slug: carebridge
+  matched_by: domain
 - name: Career Karma
   url: http://careerkarma.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: career-karma
+  slug: career-karma
+  matched_by: domain
 - name: Carmera *
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carmera
+  slug: carmera
+  matched_by: name-slug
 - name: Carnival Mobile *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carnival-mobile
+  slug: carnival-mobile
+  matched_by: name-slug
 - name: Carrick Therapeutics
   url: http://carricktherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carrick-therapeutics
+  slug: carrick-therapeutics
+  matched_by: domain
 - name: Celsius Therapeutics *
   url: https://www.abbvie.com/celsius-therapeutics.html
   sector: life-sciences
@@ -714,17 +786,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cerevance
+  slug: cerevance
+  matched_by: domain
 - name: Checkmate
   url: https://joincheckmate.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: checkmate
+  in_network: true
+  is_api_provider: true
+  slug: checkmate
+  matched_by: domain
 - name: Checkr
   url: http://checkr.io
   sector: ai
@@ -757,17 +831,19 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circleup
+  slug: circleup
+  matched_by: domain
 - name: CircuitHub
   url: http://circuithub.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circuithub
+  slug: circuithub
+  matched_by: domain
 - name: Clarifai *
   url: http://clarifai.com
   sector: ai
@@ -791,16 +867,18 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clear-labs
+  slug: clearlabs
+  matched_by: domain
 - name: ClearStory Data *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearstory-data
+  slug: clearstory-data
+  matched_by: name-slug
 - name: Clever *
   url: http://clever.com
   sector: consumer
@@ -815,24 +893,27 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: clever-care
+  in_network: true
+  is_api_provider: true
+  slug: clevercarehealthplan
+  matched_by: domain
 - name: Climate-X
   url: https://www.climate-x.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: climate-x
+  slug: climate-x
+  matched_by: domain
 - name: CliQr Technologies *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cliqr-technologies
+  slug: cliqr-technologies
+  matched_by: name-slug
 - name: Cloudera *
   url: http://cloudera.com
   sector: enterprise
@@ -847,24 +928,27 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: clover-health
+  in_network: true
+  is_api_provider: true
+  slug: clover-health
+  matched_by: domain
 - name: Clutter
   url: http://clutter.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clutter
+  slug: clutter
+  matched_by: domain
 - name: Cmd *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cmd
+  slug: cmd
+  matched_by: name-slug
 - name: Cockroach Labs
   url: http://cockroachlabs.com
   sector: enterprise
@@ -879,9 +963,10 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio?sector=ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cognosys
+  slug: cognosys
+  matched_by: domain
 - name: Cognosys *
   url: https://cohere.com
   sector: enterprise
@@ -905,97 +990,109 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collaborate
+  slug: collaborate
+  matched_by: domain
 - name: Collective Health
   url: http://collectivehealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collective-health
+  slug: collective-health
+  matched_by: domain
 - name: Comanche Biopharma
   url: https://comanchebiopharma.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comanche-biopharma
+  slug: comanche-biopharma
+  matched_by: domain
 - name: Comfy *
   url: http://comfyapp.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comfy
+  slug: comfy
+  matched_by: domain
 - name: Compass Therapeutics
   url: http://compasstherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: compass-therapeutics
+  slug: compass-therapeutics
+  matched_by: domain
 - name: Complyance
   url: https://www.complyance.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: complyance
+  slug: complyance
+  matched_by: domain
 - name: Comstruct
   url: https://www.comstruct.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comstruct
+  slug: comstruct
+  matched_by: domain
 - name: Confide *
   url: http://www.getconfide.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: confide
+  slug: confide
+  matched_by: domain
 - name: Context.ai *
   url: https://context.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: contextai
+  slug: contextai
+  matched_by: domain
 - name: Continua
   url: https://www.continua.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: continua
+  slug: continua
+  matched_by: domain
 - name: Contraline
   url: http://www.contraline.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: contraline
+  slug: contraline
+  matched_by: domain
 - name: Cool Planet
   url: https://www.coolplanet.io
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cool-planet
+  slug: cool-planet
+  matched_by: domain
 - name: Copper
   url: http://copper.com
   sector: enterprise
@@ -1010,25 +1107,28 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cord
+  slug: cordproject
+  matched_by: domain
 - name: Corduro
   url: https://www.corduro.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corduro
+  slug: corduro
+  matched_by: domain
 - name: CoreOS *
   url: http://coreos.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coreos
+  slug: coreos
+  matched_by: domain
 - name: Cosmos
   url: https://www.cosmos.so
   sector: consumer
@@ -1043,9 +1143,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: counsel-health
+  slug: counsel-health
+  matched_by: domain
 - name: Courier
   url: courier.com
   sector: enterprise
@@ -1069,24 +1170,27 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crash-override
+  slug: crash-override
+  matched_by: domain
 - name: creativeLIVE
   url: http://creativelive.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: creativelive
+  slug: creativelive
+  matched_by: domain
 - name: Crews By Core *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crews-by-core
+  slug: crews-by-core
+  matched_by: name-slug
 - name: Cribl
   url: https://cribl.io
   sector: enterprise
@@ -1100,95 +1204,107 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ctrl-labs
+  slug: ctrl-labs
+  matched_by: name-slug
 - name: Cur8
   url: https://cur8.earth
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cur8
+  slug: cur8
+  matched_by: domain
 - name: Curie.Bio
   url: https://curie.bio/
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curiebio
+  slug: curiebio
+  matched_by: domain
 - name: Currencycloud *
   url: http://currencycloud.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: currencycloud
+  in_network: true
+  is_api_provider: true
+  slug: currencycloud
+  matched_by: domain
 - name: CyberGRX
   url: http://cybergrx.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cybergrx
+  slug: cybergrx
+  matched_by: domain
 - name: Cymbal
   url: https://cymbal.xyz
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cymbal
+  slug: cymbal
+  matched_by: domain
 - name: Dandelion Energy
   url: http://dandelionenergy.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dandelion-energy
+  slug: dandelion-energy
+  matched_by: domain
 - name: Dapper Labs
   url: http://dapperlabs.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dapper-labs
+  slug: dapperlabs
+  matched_by: domain
 - name: Dasient *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dasient
+  slug: dasient
+  matched_by: name-slug
 - name: DataFox *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datafox
+  slug: datafox
+  matched_by: name-slug
 - name: Datanyze *
   url: https://www.datanyze.com/
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datanyze
+  slug: datanyze
+  matched_by: domain
 - name: Daydream
   url: https://daydream.ing/
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daydream
+  slug: daydream
+  matched_by: name-slug
 - name: dbt Labs *
   url: https://getdbt.com
   sector: enterprise
@@ -1203,9 +1319,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: decibel-therapeutics
+  slug: decibel-therapeutics
+  matched_by: domain
 - name: Deepset
   url: http://deepset.ai
   sector: enterprise
@@ -1229,25 +1346,28 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delphia-therapeutics
+  slug: delphia-therapeutics
+  matched_by: domain
 - name: Delve Bio
   url: https://www.delve.bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delve-bio
+  slug: delve-bio
+  matched_by: domain
 - name: Denali Therapeutics *
   url: http://denalitherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: denali-therapeutics
+  slug: denali-therapeutics
+  matched_by: domain
 - name: Desktop Metal *
   url: http://desktopmetal.com
   sector: frontier-tech
@@ -1255,16 +1375,17 @@ companies:
   source: https://www.gv.com/portfolio
   slug: desktop-metal
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Desmos
   url: http://desmos.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: desmos
+  slug: desmos
+  matched_by: domain
 - name: Determined AI
   url: https://determined.ai
   sector: infrastructure
@@ -1288,9 +1409,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: devoted-health
+  in_network: true
+  is_api_provider: true
+  slug: devoted
+  matched_by: domain
 - name: Dialpad
   url: http://dialpad.com
   sector: ai
@@ -1305,15 +1427,16 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digit
+  slug: digit
+  matched_by: domain
 - name: Digits
   url: http://digits.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: digits-com
+  slug: digits
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1322,25 +1445,28 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: distance
+  slug: distance
+  matched_by: domain
 - name: Diverge Health
   url: https://divergecares.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diverge-health
+  slug: diverge-health
+  matched_by: name-slug
 - name: Divide *
   url: http://divide.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: divide
+  slug: divide
+  matched_by: domain
 - name: DNAnexus
   url: http://dnanexus.com
   sector: life-sciences
@@ -1355,9 +1481,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doctor-on-demand
+  slug: doctor-on-demand
+  matched_by: domain
 - name: DocuSign *
   url: http://docusign.com
   sector: enterprise
@@ -1372,9 +1499,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dopesecurity
+  in_network: true
+  is_api_provider: true
+  slug: dopesecurity
+  matched_by: domain
 - name: Doppler
   url: http://doppler.com
   sector: enterprise
@@ -1389,17 +1517,19 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: driver
+  slug: driver
+  matched_by: domain
 - name: DualEntry
   url: https://www.dualentry.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dualentry
+  slug: dualentry
+  matched_by: domain
 - name: Duo Security *
   url: http://duo.com
   sector: enterprise
@@ -1414,9 +1544,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dyno-therapeutics
+  slug: dyno-therapeutics
+  matched_by: domain
 - name: EasyPost
   url: http://easypost.com
   sector: enterprise
@@ -1431,9 +1562,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: editas-medicine
+  slug: editas-medicine
+  matched_by: domain
 - name: Egnyte
   url: http://egnyte.com
   sector: enterprise
@@ -1448,63 +1580,71 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: element-science
+  slug: element-science
+  matched_by: domain
 - name: Emergent VR *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emergent-vr
+  slug: emergent-vr
+  matched_by: name-slug
 - name: Emissary
   url: http://emissary.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emissary
+  slug: emissary
+  matched_by: domain
 - name: Encoded Therapeutics
   url: http://encoded.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: encoded-therapeutics
+  slug: encoded-therapeutics
+  matched_by: domain
 - name: Endurosat
   url: https://www.endurosat.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: endurosat
+  slug: endurosat
+  matched_by: domain
 - name: English Central
   url: http://englishcentral.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: english-central
+  slug: english-central
+  matched_by: domain
 - name: EpiBiologics
   url: https://www.epibiologics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: epibiologics
+  slug: epibiologics
+  matched_by: domain
 - name: EQRx *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eqrx
+  slug: eqrx
+  matched_by: name-slug
 - name: Ethos *
   url: https://www.ethoslife.com
   sector: consumer
@@ -1519,40 +1659,45 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evelo-biosciences
+  slug: evelo-biosciences
+  matched_by: domain
 - name: EveryONE Medicines
   url: https://www.everyonemedicines.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everyone-medicines
+  slug: everyonemedicines
+  matched_by: domain
 - name: Evident.io *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evidentio
+  slug: evidentio
+  matched_by: name-slug
 - name: Evox Therapeutics
   url: http://evoxtherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evox-therapeutics
+  slug: evox-therapeutics
+  matched_by: domain
 - name: Fabric
   url: https://www.fabrichealth.com/
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabric
+  slug: fabric
+  matched_by: domain
 - name: Farmers Business Network
   url: http://farmersbusinessnetwork.com
   sector: frontier-tech
@@ -1560,16 +1705,17 @@ companies:
   source: https://www.gv.com/portfolio
   slug: farmers-business-network
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: name-slug
 - name: Farmwise
   url: farmwise.io
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: farmwise
+  slug: farmwise
+  matched_by: domain
 - name: Fathom
   url: http://fathomhealth.co
   sector: ai
@@ -1584,40 +1730,45 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firefly
+  slug: firefly
+  matched_by: domain
 - name: firsthand
   url: https://www.firsthandcares.com/
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firsthand
+  slug: firsthand
+  matched_by: domain
 - name: FitStar *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fitstar
+  slug: fitstar
+  matched_by: name-slug
 - name: Flapping Airplanes
   url: flappingairplanes.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flapping-airplanes
+  slug: flapping-airplanes
+  matched_by: domain
 - name: Flatiron Health *
   url: http://flatiron.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flatiron-health
+  slug: flatiron-health
+  matched_by: domain
 - name: Flexport
   url: http://flexport.com
   sector: enterprise
@@ -1632,80 +1783,90 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flick
+  slug: flick
+  matched_by: domain
 - name: Flock Freight
   url: http://flockfreight.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flock-freight
+  slug: flock-freight
+  matched_by: domain
 - name: Flourish
   url: http://www.flourishlabs.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flourish
+  slug: flourish
+  matched_by: domain
 - name: FlutterFlow
   url: https://flutterflow.io
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flutterflow
+  slug: flutterflow
+  matched_by: domain
 - name: Forty Seven *
   url: http://fortyseveninc.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forty-seven
+  slug: forty-seven
+  matched_by: domain
 - name: Found
   url: http://joinfound.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: found
+  slug: weekend-health-found
+  matched_by: domain
 - name: Foundation Medicine *
   url: http://foundationmedicine.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: foundation-medicine
+  slug: foundation-medicine
+  matched_by: domain
 - name: Framed *
   url: http://framed.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: framed
+  slug: framed
+  matched_by: domain
 - name: Freenome
   url: http://freenome.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freenome
+  slug: freenome
+  matched_by: domain
 - name: Freshplum *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freshplum
+  slug: freshplum
+  matched_by: name-slug
 - name: FullStory
   url: http://fullstory.com
   sector: enterprise
@@ -1720,25 +1881,28 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fyto
+  slug: fyto
+  matched_by: domain
 - name: Gametime
   url: http://gametime.co
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gametime
+  slug: gametime
+  matched_by: domain
 - name: Gate Bioscience
   url: https://www.gatebio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gate-bioscience
+  slug: gate-bioscience
+  matched_by: domain
 - name: Genesis
   url: http://genesis.global
   sector: enterprise
@@ -1753,24 +1917,27 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genie-ai
+  slug: genie-ai
+  matched_by: domain
 - name: Genome Medical
   url: http://genomemedical.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genome-medical
+  slug: genome-medical
+  matched_by: domain
 - name: Genomics Medicine Ireland *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genomics-medicine-ireland
+  slug: genomics-medicine-ireland
+  matched_by: name-slug
 - name: Giphy *
   url: http://giphy.com
   sector: consumer
@@ -1803,9 +1970,10 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glass-imaging
+  slug: glass-imaging
+  matched_by: domain
 - name: GoCardless *
   url: http://gocardless.com
   sector: enterprise
@@ -1820,40 +1988,45 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: good-eggs
+  slug: good-eggs
+  matched_by: domain
 - name: Gowalla
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gowalla
+  slug: gowalla
+  matched_by: name-slug
 - name: Graft
   url: https://graft.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graft
+  slug: graft
+  matched_by: domain
 - name: Grail
   url: http://grail.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grail
+  slug: grail
+  matched_by: domain
 - name: Granata Bio
   url: https://www.granata.bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: granata-bio
+  slug: granata-bio
+  matched_by: domain
 - name: Granular *
   url: http://granular.ag
   sector: frontier-tech
@@ -1868,64 +2041,72 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gravity
+  slug: gravity
+  matched_by: name-slug
 - name: Gravity Sketch
   url: http://gravitysketch.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gravity-sketch
+  slug: gravity-sketch
+  matched_by: domain
 - name: Greenwork
   url: http://joingreenwork.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greenwork
+  slug: greenwork
+  matched_by: domain
 - name: Gritstone Oncology
   url: http://gritstoneoncology.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gritstone-oncology
+  slug: gritstone-oncology
+  matched_by: domain
 - name: Groundswell
   url: http://groundswell.io
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: groundswell
+  slug: groundswell
+  matched_by: domain
 - name: Guide Therapeutics *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guide-therapeutics
+  slug: guide-therapeutics
+  matched_by: name-slug
 - name: Guidelight Health
   url: https://guidelighthealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guidelight-health
+  slug: guidelight-health
+  matched_by: domain
 - name: Guild.ai
   url: https://www.guild.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guildai
+  slug: guildai
+  matched_by: domain
 - name: Gusto
   url: https://www.gusto.com
   sector: enterprise
@@ -1940,24 +2121,27 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gyft
+  slug: gyft
+  matched_by: domain
 - name: HAGS
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hags
+  slug: hags
+  matched_by: name-slug
 - name: Happiest Baby
   url: http://happiestbaby.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happiest-baby
+  slug: happiest-baby
+  matched_by: domain
 - name: Harness
   url: http://harness.io
   sector: enterprise
@@ -1981,15 +2165,16 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: headspin
+  slug: headspin
+  matched_by: domain
 - name: Headway
   url: https://headway.co/
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: headway-co
+  slug: headway
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1997,16 +2182,18 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heartthis
+  slug: heartthis
+  matched_by: name-slug
 - name: HEAVY.AI
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heavyai
+  slug: heavyai
+  matched_by: name-slug
 - name: Hebbia
   url: https://www.hebbia.ai
   sector: ai
@@ -2029,15 +2216,16 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: helix
+  slug: helix
+  matched_by: name-slug
 - name: HelloSign *
   url: http://hellosign.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: dropbox-sign
+  slug: hellosign
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2046,47 +2234,53 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: high-fidelity
+  slug: high-fidelity
+  matched_by: domain
 - name: Highfive
   url: http://highfive.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: highfive
+  slug: highfive
+  matched_by: domain
 - name: Hipster *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hipster
+  slug: hipster
+  matched_by: name-slug
 - name: Home From College
   url: https://www.homefromcollege.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: home-from-college
+  slug: home-from-college
+  matched_by: domain
 - name: HomeAway *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homeaway
+  slug: homeaway
+  matched_by: name-slug
 - name: Homebound
   url: http://homebound.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homebound
+  slug: homebound
+  matched_by: domain
 - name: HomeLight
   url: http://homelight.com
   sector: consumer
@@ -2101,9 +2295,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hover
+  slug: hover
+  matched_by: domain
 - name: HubSpot *
   url: http://hubspot.com
   sector: enterprise
@@ -2118,97 +2313,109 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humans-and
+  slug: humansand
+  matched_by: domain
 - name: Hustle
   url: http://hustle.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hustle
+  in_network: true
+  is_api_provider: true
+  slug: hustle
+  matched_by: domain
 - name: Hyperfine Research
   url: https://www.hyperfinemri.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyperfine-research
+  slug: hyperfine-research
+  matched_by: domain
 - name: IconOVir Bio
   url: http://iconovir.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iconovir-bio
+  slug: iconovir-bio
+  matched_by: domain
 - name: Ideaya Biosciences
   url: http://ideayabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ideaya-biosciences
+  slug: ideaya-biosciences
+  matched_by: domain
 - name: Imagen
   url: http://imagen.ai
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imagen
+  slug: imagen
+  matched_by: domain
 - name: Impossible Foods
   url: https://impossiblefoods.com/
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impossible-foods
+  slug: impossiblefoods
+  matched_by: domain
 - name: Incorta
   url: http://incorta.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: incorta
+  slug: incorta
+  matched_by: domain
 - name: Inertia
   url: https://inertia.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inertia
+  slug: inertia
+  matched_by: domain
 - name: Infinitus
   url: http://infinitus.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinitus
+  slug: infinitus
+  matched_by: domain
 - name: Insitro
   url: http://insitro.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insitro
+  slug: insitro
+  matched_by: domain
 - name: Instawork
   url: http://instawork.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instawork
+  slug: instawork
+  matched_by: domain
 - name: Intercom
   url: http://intercom.com
   sector: enterprise
@@ -2223,16 +2430,18 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: invetx
+  slug: invetx
+  matched_by: name-slug
 - name: Ionic Security *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ionic-security
+  slug: ionic-security
+  matched_by: name-slug
 - name: IonQ *
   url: http://ionq.co
   sector: frontier-tech
@@ -2246,9 +2455,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ipierian
+  slug: ipierian
+  matched_by: name-slug
 - name: Isomorphic Labs
   url: https://www.isomorphiclabs.com
   sector: life-sciences
@@ -2263,62 +2473,69 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iterative-health
+  slug: iterative-health-fka-iterative-scopes
+  matched_by: domain
 - name: Jaunt *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jaunt
+  slug: jaunt
+  matched_by: name-slug
 - name: Jet *
   url: http://jet.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jet
+  slug: jet
+  matched_by: domain
 - name: Jetify
   url: https://www.jetify.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: jetify
+  in_network: true
+  is_api_provider: true
+  slug: jetify
+  matched_by: domain
 - name: JumpCam
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumpcam
+  slug: jumpcam
+  matched_by: name-slug
 - name: Kabam *
   url: http://kabam.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kabam
+  slug: kabam
+  matched_by: domain
 - name: Kamcord *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kamcord
+  slug: kamcord
+  matched_by: name-slug
 - name: Kensho *
   url: https://kensho.com/
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: s-and-p-global
+  slug: kensho
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Kindbody
   url: http://kindbody.com
@@ -2334,41 +2551,46 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kindred
+  slug: kindred
+  matched_by: name-slug
 - name: Kinetic Apps
   url: http://www.kineticapps.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinetic-apps
+  slug: kinetic-apps
+  matched_by: domain
 - name: Kitchen United
   url: http://kitchenunited.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kitchen-united
+  slug: kitchen-united
+  matched_by: domain
 - name: Kobalt
   url: https://kobaltmusic.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kobalt
+  slug: kobaltmusic
+  matched_by: domain
 - name: Kronos Bio *
   url: http://kronosbio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kronos-bio
+  slug: kronos-bio
+  matched_by: domain
 - name: Lacework *
   url: https://www.lacework.com
   sector: enterprise
@@ -2383,17 +2605,19 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: landis
+  slug: landis
+  matched_by: domain
 - name: Lapse
   url: http://lapse.app
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lapse
+  slug: lapse
+  matched_by: name-slug
 - name: Lattice *
   sector: ai
   status: unknown
@@ -2407,49 +2631,55 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: launchkit
+  slug: launchkit
+  matched_by: name-slug
 - name: Laurel
   url: https://www.laurel.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: laurel
+  in_network: true
+  is_api_provider: true
+  slug: laurel
+  matched_by: domain
 - name: Lawhive
   url: https://lawhive.co.uk
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lawhive
+  slug: lawhive
+  matched_by: domain
 - name: LawPivot *
   url: http://lawpivot.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lawpivot
+  slug: lawpivot
+  matched_by: domain
 - name: Layer Health
   url: https://www.layerhealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: layer-health
+  slug: layer-health
+  matched_by: domain
 - name: LedgerX *
   url: http://ledgerx.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ledgerx
+  slug: ledgerx
+  matched_by: domain
 - name: Lemonade *
   url: http://lemonade.com
   sector: ai
@@ -2464,33 +2694,37 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lendup
+  slug: lendup
+  matched_by: domain
 - name: LevelUp
   url: http://thelevelup.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levelup
+  slug: thelevelup
+  matched_by: domain
 - name: Leyden Labs
   url: https://leydenlabs.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leyden-labs
+  slug: leyden-labs
+  matched_by: domain
 - name: LifeMine Therapeutics
   url: http://lifeminetx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lifemine-therapeutics
+  slug: lifemine-therapeutics
+  matched_by: domain
 - name: Lightmatter
   url: http://lightmatter.co
   sector: ai
@@ -2513,17 +2747,19 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: locker-room
+  slug: locker-room
+  matched_by: name-slug
 - name: Lola
   url: http://lola.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lola
+  slug: lola
+  matched_by: domain
 - name: Loom *
   url: https://www.loom.com
   sector: ai
@@ -2538,56 +2774,63 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lotusflare
+  slug: lotusflare
+  matched_by: domain
 - name: Lovevery
   url: http://lovevery.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lovevery
+  slug: lovevery
+  matched_by: domain
 - name: Luminate *
   url: http://www.luminate.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luminate
+  slug: luminate
+  matched_by: name-slug
 - name: Luminate Wireless
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luminate-wireless
+  slug: luminate-wireless
+  matched_by: name-slug
 - name: Luna Park
   url: https://lunapark.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luna-park
+  slug: luna-park
+  matched_by: domain
 - name: Luvocracy *
   url: http://luvocracy.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luvocracy
+  slug: luvocracy
+  matched_by: domain
 - name: Luxe *
   url: http://luxevalet.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luxe
+  slug: luxe
+  matched_by: domain
 - name: mabl
   url: http://mabl.com
   sector: enterprise
@@ -2602,65 +2845,73 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: machinify
+  slug: machinify
+  matched_by: domain
 - name: Magenta Therapeutics *
   url: http://magentatx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magenta-therapeutics
+  slug: magenta-therapeutics
+  matched_by: domain
 - name: Makani *
   url: http://google.com/makani
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: makani
+  slug: makani
+  matched_by: name-slug
 - name: Managed by Q *
   url: http://managedbyq.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: managed-by-q
+  slug: managedbyq
+  matched_by: domain
 - name: Matter
   url: http://getmatter.app
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: matter
+  in_network: true
+  is_api_provider: true
+  slug: matter
+  matched_by: name-slug
 - name: Maze Therapeutics *
   url: mazetx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maze-therapeutics
+  slug: maze-therapeutics
+  matched_by: domain
 - name: Mechanical Orchard
   url: https://www.mechanical-orchard.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mechanical-orchard
+  slug: mechanical-orchard
+  matched_by: domain
 - name: Medallion
   url: Medallion.co
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medallion
+  slug: medallion
+  matched_by: domain
 - name: Medium
   url: https://www.medium.com
   sector: consumer
@@ -2675,133 +2926,149 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meltano
+  slug: meltano
+  matched_by: domain
 - name: Merida Biosciences
   url: https://meridabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merida-biosciences
+  slug: merida-biosciences
+  matched_by: domain
 - name: MessageMe *
   url: http://messageme.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: messageme
+  slug: messageme
+  matched_by: domain
 - name: Mestag Therapeutics
   url: http://mestagtx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mestag-therapeutics
+  slug: mestag-therapeutics
+  matched_by: name-slug
 - name: Metabiota
   url: http://metabiota.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metabiota
+  slug: metabiota
+  matched_by: domain
 - name: Metaview
   url: https://www.metaview.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metaview
+  slug: metaview
+  matched_by: domain
 - name: Metsera *
   url: https://metsera.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metsera
+  slug: metsera
+  matched_by: domain
 - name: Midi Health
   url: https://www.joinmidi.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: midi-health
+  slug: joinmidi
+  matched_by: domain
 - name: Mighty AI *
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mighty-ai
+  slug: mighty-ai
+  matched_by: name-slug
 - name: Milk *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: milk
+  slug: milk
+  matched_by: name-slug
 - name: Mill
   url: https://www.mill.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mill
+  slug: mill
+  matched_by: domain
 - name: Mimic
   url: https://mimic.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mimic
+  slug: mimic
+  matched_by: domain
 - name: MindMeld *
   url: http://mindmeld.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindmeld
+  slug: mindmeld
+  matched_by: domain
 - name: MindSumo
   url: http://mindsumo.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindsumo
+  slug: mindsumo
+  matched_by: domain
 - name: MirrorTab
   url: https://www.mirrortab.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mirrortab
+  in_network: true
+  is_api_provider: true
+  slug: mirrortab
+  matched_by: domain
 - name: Mirvie
   url: mirvie.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mirvie
+  slug: mirvie
+  matched_by: domain
 - name: Mist Systems *
   url: http://mist.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: juniper-networks
+  slug: mist
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2809,69 +3076,77 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mitro
+  slug: mitro
+  matched_by: name-slug
 - name: Mode *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mode
+  in_network: true
+  is_api_provider: true
+  slug: mode
+  matched_by: name-slug
 - name: Modern Age
   url: http://modern-age.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modern-age
+  slug: modern-age
+  matched_by: domain
 - name: Modsy *
   url: https://www.modsy.com/
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modsy
+  slug: modsy
+  matched_by: domain
 - name: Modular *
   url: https://www.modular.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modular
+  slug: modular
+  matched_by: domain
 - name: Mohawk *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mohawk
+  slug: mohawk
+  matched_by: name-slug
 - name: MokN
   url: https://mokn.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mokn
+  slug: mokn
+  matched_by: domain
 - name: Monte Rosa Therapeutics *
   url: http://monterosatx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monte-rosa-therapeutics
+  slug: monte-rosa-therapeutics
+  matched_by: domain
 - name: Monzo
   url: https://www.monzo.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: neobanks
+  slug: monzo
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -2880,25 +3155,28 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moonhub
+  slug: moonhub
+  matched_by: domain
 - name: Moonwalk Biosciences
   url: https://moonwalk.bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moonwalk-biosciences
+  slug: moonwalk
+  matched_by: domain
 - name: Mother Games
   url: https://www.mothergames.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mother-games
+  slug: mother-games
+  matched_by: domain
 - name: Motive
   url: https://gomotive.com/
   sector: enterprise
@@ -2925,86 +3203,96 @@ companies:
   slug: multiverse
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: myLaurel
   url: https://www.mylaurelhealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mylaurel
+  slug: mylaurel
+  matched_by: domain
 - name: N3twork
   url: http://n3twork.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: n3twork
+  slug: n3twork
+  matched_by: domain
 - name: Namo Media *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: namo-media
+  slug: namo-media
+  matched_by: name-slug
 - name: Nanit
   url: http://nanit.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nanit
+  slug: nanit
+  matched_by: domain
 - name: Nava Benefits
   url: navabenefits.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nava-benefits
+  slug: nava-benefits
+  matched_by: domain
 - name: Nava Therapeutics
   url: https://navatx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nava-therapeutics
+  slug: nava-therapeutics
+  matched_by: domain
 - name: nChroma Bio
   url: https://www.nchromabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nchroma-bio
+  slug: nchroma-bio
+  matched_by: domain
 - name: Nebex
   url: https://www.nebex.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nebex
+  slug: nebex
+  matched_by: domain
 - name: Nectar Social
   url: https://www.nectarsocial.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nectar-social
+  slug: nectar-social
+  matched_by: domain
 - name: Neo.Tax
   url: http://neo.tax
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neotax
+  slug: neotax
+  matched_by: domain
 - name: Neo4j
   url: http://neo4j.com
   sector: enterprise
@@ -3022,22 +3310,24 @@ companies:
   slug: nest
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Neuralink
   url: http://neuralink.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neuralink
+  slug: neuralink
+  matched_by: domain
 - name: Nextbit *
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nextbit
+  slug: nextbit
+  matched_by: name-slug
 - name: Nextdoor *
   url: http://nextdoor.com
   sector: consumer
@@ -3051,9 +3341,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ngmoco
+  slug: ngmoco
+  matched_by: name-slug
 - name: Nimble
   url: https://www.nimble.com/
   sector: enterprise
@@ -3068,57 +3359,64 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimbus-therapeutics
+  slug: nimbus-therapeutics
+  matched_by: domain
 - name: NoRedInk
   url: http://noredink.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noredink
+  slug: noredink
+  matched_by: domain
 - name: Nothing
   url: https://www.nothing.tech
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nothing
+  slug: nothing
+  matched_by: domain
 - name: nPlan
   url: http://nplan.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nplan
+  slug: nplan
+  matched_by: domain
 - name: Nym Health
   url: http://nym.health
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nym-health
+  slug: nym
+  matched_by: domain
 - name: Oasis Health Partners
   url: https://oasishealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oasis-health-partners
+  slug: oasis-health-partners
+  matched_by: domain
 - name: Oblenio Bio
   url: https://www.obleniobio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oblenio-bio
+  slug: oblenio-bio
+  matched_by: domain
 - name: Obsidian Security
   url: http://obsidiansecurity.com
   sector: enterprise
@@ -3133,49 +3431,55 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: obsidian-therapeutics
+  slug: obsidian-therapeutics
+  matched_by: domain
 - name: Odyssey
   url: https://odyssey.systems
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odyssey
+  slug: odyssey
+  matched_by: name-slug
 - name: OMass Therapeutics
   url: http://omass.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omass-therapeutics
+  slug: omass-therapeutics
+  matched_by: domain
 - name: Omeat
   url: https://www.omeat.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omeat
+  slug: omeat
+  matched_by: domain
 - name: Omni
   url: https://omni.co
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio?sector=ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: omni
+  in_network: true
+  is_api_provider: true
+  slug: omni
+  matched_by: domain
 - name: Omni Analytics
   url: exploreomni.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omni-analytics
+  slug: omni-analytics
+  matched_by: domain
 - name: OnDeck *
   url: http://ondeck.com
   sector: enterprise
@@ -3190,25 +3494,28 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-medical
+  slug: one-medical
+  matched_by: domain
 - name: oneNav
   url: http://onenav.ai
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onenav
+  slug: onenav
+  matched_by: domain
 - name: Openbay
   url: https://app.openbay.com/
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openbay
+  slug: openbay
+  matched_by: domain
 - name: Opendoor *
   url: http://opendoor.com
   sector: consumer
@@ -3241,16 +3548,18 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: optiwatt
+  slug: optiwatt
+  matched_by: domain
 - name: Oration *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oration
+  slug: oration
+  matched_by: name-slug
 - name: Orbital Insight *
   url: http://orbitalinsight.com
   sector: frontier-tech
@@ -3274,88 +3583,99 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: osmo
+  slug: osmo
+  matched_by: name-slug
 - name: Oula Health
   url: https://oulahealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oula-health
+  slug: oula-health
+  matched_by: domain
 - name: Outdoor Voices
   url: http://outdoorvoices.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outdoor-voices
+  slug: outdoor-voices
+  matched_by: domain
 - name: Outlier
   url: http://outlier.org
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outlier
+  slug: outlier
+  matched_by: domain
 - name: Overture
   url: http://overture.life
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: overture
+  slug: overture
+  matched_by: domain
 - name: Overview
   url: https://overview.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: overview
+  slug: overview
+  matched_by: domain
 - name: OWKIN
   url: http://owkin.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: owkin
+  slug: owkin
+  matched_by: domain
 - name: Oxford Science Enterprises
   url: http://oxfordscienceenterprises.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oxford-science-enterprises
+  slug: oxford-science-enterprises
+  matched_by: domain
 - name: Packagd *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: packagd
+  slug: packagd
+  matched_by: name-slug
 - name: PACT Pharma
   url: http://pactpharma.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pact-pharma
+  slug: pact-pharma
+  matched_by: domain
 - name: Pager
   url: https://www.pager.xyz/
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pager
+  slug: pager
+  matched_by: domain
 - name: Pangea
   url: https://pangea.cloud
   sector: enterprise
@@ -3370,177 +3690,199 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: panorama-education
+  slug: panorama-education
+  matched_by: domain
 - name: Parabilis Medicines *
   url: https://parabilismed.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parabilis-medicines
+  slug: parabilis-medicines
+  matched_by: domain
 - name: Paradigm Health
   url: https://www.paradigm.inc/
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paradigm-health
+  slug: paradigm-health
+  matched_by: domain
 - name: Parsable
   url: http://parsable.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parsable
+  slug: parsable
+  matched_by: domain
 - name: Parse *
   url: http://parse.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parse
+  slug: parse
+  matched_by: name-slug
 - name: Partiful
   url: https://partiful.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: partiful
+  slug: partiful
+  matched_by: domain
 - name: PatientPing *
   url: http://patientping.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patientping
+  slug: patientping
+  matched_by: domain
 - name: Patina
   url: http://patinahealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patina
+  slug: patina
+  matched_by: domain
 - name: PayRange *
   url: http://payrange.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payrange
+  slug: payrange
+  matched_by: domain
 - name: Pecan AI
   url: http://pecan.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pecan-ai
+  slug: pecan
+  matched_by: domain
 - name: Peerspace
   url: http://peerspace.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peerspace
+  slug: peerspace
+  matched_by: domain
 - name: Pelage Pharmaceuticals
   url: https://pelagepharma.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pelage-pharmaceuticals
+  slug: pelage-pharmaceuticals
+  matched_by: domain
 - name: Pensando *
   url: http://pensando.io
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pensando
+  slug: pensando
+  matched_by: name-slug
 - name: PeopleOne Health
   url: peopleonehealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peopleone-health
+  slug: peopleone-health
+  matched_by: domain
 - name: Perceive Bio
   url: https://perceivebio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perceive-bio
+  slug: perceive-bio
+  matched_by: domain
 - name: Percolata
   url: http://percolata.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: percolata
+  slug: percolata
+  matched_by: domain
 - name: Periscope *
   url: http://periscope.tv
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periscope
+  slug: periscope
+  matched_by: name-slug
 - name: Periscope Data *
   url: http://periscopedata.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periscope-data
+  slug: periscope-data
+  matched_by: domain
 - name: Phoebe
   url: https://phoebe.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phoebe
+  slug: phoebe
+  matched_by: name-slug
 - name: Physna
   url: http://physna.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: physna
+  in_network: true
+  is_api_provider: true
+  slug: physna
+  matched_by: domain
 - name: Pindrop
   url: http://pindrop.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pindrop
+  slug: pindrop
+  matched_by: domain
 - name: Pixie Labs *
   url: http://pixielabs.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pixie-labs
+  slug: pixie-labs
+  matched_by: name-slug
 - name: Plaid
   url: http://plaid.com
   sector: enterprise
@@ -3555,17 +3897,19 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plangrid
+  slug: plangrid
+  matched_by: domain
 - name: Plexxi *
   url: http://plexxi.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexxi
+  slug: plexxi
+  matched_by: name-slug
 - name: Pocket *
   url: http://getpocket.com
   sector: consumer
@@ -3589,9 +3933,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polar-signals
+  slug: polar-signals
+  matched_by: domain
 - name: PostHog
   url: http://posthog.com
   sector: enterprise
@@ -3606,33 +3951,37 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poynt
+  slug: poynt
+  matched_by: domain
 - name: Premise
   url: https://premise.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: premise
+  slug: premise
+  matched_by: domain
 - name: Pretzel Therapeutics
   url: pretzeltx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pretzel-therapeutics
+  slug: pretzel-therapeutics
+  matched_by: domain
 - name: Prime Medicine
   url: http://primemedicine.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prime-medicine
+  slug: prime-medicine
+  matched_by: domain
 - name: Product Hunt *
   url: http://producthunt.com
   sector: consumer
@@ -3647,70 +3996,79 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prudentia-sciences
+  slug: prudentia-sciences
+  matched_by: domain
 - name: Puppet Labs *
   url: http://puppetlabs.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: puppet-labs
+  in_network: true
+  is_api_provider: true
+  slug: puppet-labs
+  matched_by: name-slug
 - name: Push Security
   url: https://pushsecurity.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: push-security
+  slug: push-security
+  matched_by: domain
 - name: Q.ai *
   url: https://www.q.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qai
+  slug: qai
+  matched_by: domain
 - name: Q1
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: q1
+  slug: q1
+  matched_by: name-slug
 - name: Q2
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: q2
+  slug: q2
+  matched_by: name-slug
 - name: Quadratic
   url: https://www.quadratichq.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: quadratic
+  in_network: true
+  is_api_provider: true
+  slug: quadratic
+  matched_by: domain
 - name: Quartet *
   url: http://quartethealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quartet
+  slug: quartet
+  matched_by: domain
 - name: Quettra *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quettra
+  slug: quettra
+  matched_by: name-slug
 - name: Ramp
   url: ramp.com
   sector: ai
@@ -3725,32 +4083,36 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rani-therapeutics
+  slug: rani-therapeutics
+  matched_by: domain
 - name: RAPT Therapeutics
   url: http://rapt.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rapt-therapeutics
+  slug: rapt-therapeutics
+  matched_by: domain
 - name: Rattle
   url: http://gorattle.com
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rattle
+  slug: rattle
+  matched_by: domain
 - name: Reaction Commerce *
   url: http://reactioncommerce.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reaction-commerce
+  slug: reaction-commerce
+  matched_by: name-slug
 - name: Recorded Future *
   url: http://recordedfuture.com
   sector: ai
@@ -3765,9 +4127,10 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursive-superintelligence
+  slug: recursive
+  matched_by: domain
 - name: Redpanda
   url: http://redpanda.com
   sector: ai
@@ -3782,7 +4145,7 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: relay-tx
+  slug: relay-therapeutics
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -3790,129 +4153,145 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: republic-project
+  slug: republic-project
+  matched_by: name-slug
 - name: Reserve *
   url: http://reserve.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reserve
+  slug: reserve
+  matched_by: domain
 - name: Resilience
   url: http://resilience.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: domain
 - name: Resistant AI
   url: http://resistant.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: resistant-ai
+  in_network: true
+  is_api_provider: true
+  slug: resistant-ai
+  matched_by: domain
 - name: Resolution Games
   url: http://resolutiongames.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resolution-games
+  slug: resolution-games
+  matched_by: domain
 - name: RetailMeNot *
   url: http://retailmenot.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: retailmenot
+  slug: retailmenot
+  matched_by: domain
 - name: Revolution Medicines
   url: https://www.revmed.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revolution-medicines
+  slug: revolution-medicines
+  matched_by: domain
 - name: RhyGaze
   url: https://rhygaze.com/en
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rhygaze
+  slug: rhygaze
+  matched_by: domain
 - name: RightHand Robotics
   url: http://righthandrobotics.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: righthand-robotics
+  slug: righthand-robotics
+  matched_by: domain
 - name: Rilla
   url: Rilla.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rilla
+  slug: rilla
+  matched_by: domain
 - name: Ripcord
   url: https://www.ripcord.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ripcord
+  slug: ripcord
+  matched_by: domain
 - name: Rippl Care *
   url: ripplcare.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rippl-care
+  slug: rippl-care
+  matched_by: domain
 - name: Ripple Foods
   url: http://ripplefoods.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ripple-foods
+  slug: ripple-foods
+  matched_by: domain
 - name: Ripple Labs
   url: http://ripplelabs.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ripple-labs
+  in_network: true
+  is_api_provider: true
+  slug: ripple-labs
+  matched_by: name-slug
 - name: Rise *
   url: http://rise.us
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rise
+  slug: rise
+  matched_by: domain
 - name: Robinhood *
   url: http://robinhood.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: robinhood
+  in_network: true
+  is_api_provider: true
+  slug: robinhood
+  matched_by: domain
 - name: Roboflow
   url: https://roboflow.com
   sector: ai
@@ -3926,17 +4305,19 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rocana
+  slug: rocana
+  matched_by: name-slug
 - name: Rockbot
   url: http://rockbot.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rockbot
+  in_network: true
+  is_api_provider: true
+  slug: rockbot
+  matched_by: domain
 - name: Rocket Lawyer
   url: http://rocketlawyer.com
   sector: enterprise
@@ -3951,49 +4332,55 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rocketrip
+  slug: rocketrip
+  matched_by: domain
 - name: Rodin Therapeutics *
   url: http://rodintherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rodin-therapeutics
+  slug: rodin-therapeutics
+  matched_by: domain
 - name: Roger
   url: https://www.goroger.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roger
+  slug: roger
+  matched_by: domain
 - name: ROME Therapeutics
   url: http://rometx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rome-therapeutics
+  slug: rome-therapeutics
+  matched_by: domain
 - name: Rox
   url: https://www.rox.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rox
+  slug: rox
+  matched_by: domain
 - name: SambaNova Systems
   url: http://sambanovasystems.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sambanova-systems
+  in_network: true
+  is_api_provider: true
+  slug: sambanova-systems
+  matched_by: name-slug
 - name: SambaNova Systems
   url: https://sambanova.ai
   sector: infrastructure
@@ -4008,25 +4395,28 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sana-biotechnology
+  slug: sana-biotechnology
+  matched_by: domain
 - name: Sanas
   url: sanas.ai
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sanas
+  slug: sanas
+  matched_by: domain
 - name: Santa Ana Bio
   url: https://www.santaanabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: santa-ana-bio
+  slug: santa-ana-bio
+  matched_by: name-slug
 - name: Sardine
   url: sardine.ai
   sector: ai
@@ -4041,46 +4431,52 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savioke
+  slug: savioke
+  matched_by: domain
 - name: Scalus
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalus
+  slug: scalus
+  matched_by: name-slug
 - name: Scalyr *
   url: http://scalyr.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalyr
+  slug: scalyr
+  matched_by: domain
 - name: Scan *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scan
+  slug: scan
+  matched_by: name-slug
 - name: Scandit
   url: http://scandit.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scandit
+  slug: scandit
+  matched_by: domain
 - name: Schematic Labs *
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: schematic-labs
+  slug: schematic-labs
+  matched_by: name-slug
 - name: Schrödinger *
   url: http://schrodinger.com
   sector: life-sciences
@@ -4095,41 +4491,46 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: science-37
+  slug: science-37
+  matched_by: domain
 - name: Scope3
   url: https://scope3.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scope3
+  in_network: true
+  is_api_provider: true
+  slug: scope3
+  matched_by: domain
 - name: ScoutRFP *
   url: http://scoutrfp.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scoutrfp
+  in_network: true
+  is_api_provider: true
+  slug: scoutrfp
+  matched_by: name-slug
 - name: Secret Escapes
   url: http://secretescapes.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: secret-escapes
+  slug: secret-escapes
+  matched_by: domain
 - name: Security​Scorecard
   url: http://securityscorecard.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: security-scorecard
+  slug: security-scorecard
+  matched_by: domain
 - name: Segment *
   url: http://segment.io
   sector: enterprise
@@ -4144,9 +4545,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seismic-therapeutic
+  slug: seismic-therapeutic
+  matched_by: domain
 - name: Sense
   url: http://sensehq.com
   sector: ai
@@ -4161,33 +4563,37 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sensorum-health
+  slug: sensorum-health
+  matched_by: domain
 - name: Sesame
   url: sesamecare.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesame
+  slug: sesame
+  matched_by: domain
 - name: Shape Security *
   url: http://shapesecurity.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shape-security
+  slug: shapesecurity
+  matched_by: domain
 - name: SideQuest
   url: sidequestvr.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sidequest
+  in_network: true
+  is_api_provider: true
+  slug: sidequest
+  matched_by: domain
 - name: Sierra
   url: https://sierra.ai
   sector: ai
@@ -4211,32 +4617,36 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signos
+  slug: signos
+  matched_by: domain
 - name: Signpost
   url: http://signpost.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signpost
+  slug: signpost
+  matched_by: domain
 - name: Silver Spring Networks *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silver-spring-networks
+  slug: silver-spring-networks
+  matched_by: name-slug
 - name: Simply
   url: https://www.hellosimply.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simply
+  slug: simply
+  matched_by: domain
 - name: SingleStore
   url: http://singlestore.com
   sector: enterprise
@@ -4251,17 +4661,19 @@ companies:
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skycatch
+  slug: skycatch
+  matched_by: domain
 - name: Skyport Systems *
   url: http://skyportsystems.net
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skyport-systems
+  slug: skyport-systems
+  matched_by: name-slug
 - name: Slack *
   url: http://slack.com
   sector: enterprise
@@ -4275,17 +4687,19 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smarterer
+  slug: smarterer
+  matched_by: name-slug
 - name: Smol
   url: http://smolproducts.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smol
+  slug: smolproducts
+  matched_by: domain
 - name: Snorkel AI
   url: http://snorkel.ai
   sector: ai
@@ -4293,16 +4707,17 @@ companies:
   source: https://www.gv.com/portfolio
   slug: snorkel-ai
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Snowball *
   url: http://trysnowball.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snowball
+  slug: snowball
+  matched_by: domain
 - name: Snyk
   url: http://snyk.io
   sector: ai
@@ -4317,40 +4732,45 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sold
+  slug: sold
+  matched_by: domain
 - name: SolveAI
   url: https://solve.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solveai
+  slug: solveai
+  matched_by: domain
 - name: Sonoma Biotherapeutics
   url: http://sonomabio.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonoma-biotherapeutics
+  slug: sonoma-biotherapeutics
+  matched_by: domain
 - name: Soylent *
   url: http://soylent.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soylent
+  slug: soylent
+  matched_by: domain
 - name: Space Monkey *
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: space-monkey
+  slug: space-monkey
+  matched_by: name-slug
 - name: Speakeasy
   url: https://speakeasyapi.dev
   sector: enterprise
@@ -4365,25 +4785,28 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: speedybrand
+  slug: speedybrand
+  matched_by: domain
 - name: Spero Therapeutics *
   url: http://sperotherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spero-therapeutics
+  slug: spero-therapeutics
+  matched_by: name-slug
 - name: SpinLaunch
   url: https://www.spinlaunch.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spinlaunch
+  slug: spinlaunch
+  matched_by: domain
 - name: Spring *
   url: http://shopspring.com
   sector: consumer
@@ -4398,17 +4821,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sprinter-health
+  slug: sprinter-health
+  matched_by: domain
 - name: Spruce Finance *
   url: https://sprucepower.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spruce-finance
+  slug: spruce-finance
+  matched_by: domain
 - name: Spruce Health
   url: http://sprucehealth.com
   sector: life-sciences
@@ -4423,17 +4848,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spybiotech
+  slug: spybiotech
+  matched_by: domain
 - name: SQZ Biotech
   url: http://sqzbiotech.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sqz-biotech
+  slug: sqz-biotech
+  matched_by: domain
 - name: StackBlitz
   url: http://stackblitz.com
   sector: ai
@@ -4466,41 +4893,46 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stamped
+  in_network: true
+  is_api_provider: true
+  slug: stamped
+  matched_by: name-slug
 - name: StatusPRO
   url: https://www.status.pro
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: statuspro
+  slug: statuspro
+  matched_by: domain
 - name: Stipple Bio
   url: https://stipple.bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stipple-bio
+  slug: stipple-bio
+  matched_by: domain
 - name: StockX
   url: http://stockx.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stockx
+  in_network: true
+  is_api_provider: true
+  slug: stockx
+  matched_by: domain
 - name: Strella Biotechnology
   url: strellabiotech.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strella-biotechnology
+  slug: strella-biotechnology
+  matched_by: domain
 - name: Stripe
   url: http://stripe.com
   sector: enterprise
@@ -4515,41 +4947,46 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strongdm
+  slug: strongdm
+  matched_by: domain
 - name: Studio
   url: s-tud.io
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: studio
+  slug: studio
+  matched_by: domain
 - name: Subtext *
   url: http://subtext.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: subtext
+  slug: subtext
+  matched_by: domain
 - name: Superplastic
   url: https://superplastic.co/
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superplastic
+  slug: superplastic
+  matched_by: domain
 - name: SweetLabs
   url: http://sweetlabs.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sweetlabs
+  slug: sweetlabs
+  matched_by: domain
 - name: Swell *
   sector: consumer
   status: unknown
@@ -4563,25 +5000,28 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swing-education
+  slug: swing-education
+  matched_by: domain
 - name: Synack
   url: http://synack.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: synack
+  in_network: true
+  is_api_provider: true
+  slug: synack
+  matched_by: domain
 - name: Synapticure
   url: http://synapticure.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synapticure
+  slug: synapticure
+  matched_by: domain
 - name: Sync Labs
   url: https://sync.so
   sector: enterprise
@@ -4605,17 +5045,19 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: syremis-therapeutics
+  slug: syremis-therapeutics
+  matched_by: domain
 - name: Tala
   url: http://tala.co
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tala
+  slug: tala
+  matched_by: domain
 - name: Tamr
   url: http://tamr.com
   sector: ai
@@ -4630,71 +5072,80 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taysha-gene-therapies
+  slug: taysha-gene-therapies
+  matched_by: domain
 - name: Teem *
   url: http://teem.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teem
+  slug: teem
+  matched_by: domain
 - name: Tenaya Therapeutics *
   url: http://tenayatherapeutics.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenaya-therapeutics
+  slug: tenaya-therapeutics
+  matched_by: domain
 - name: Tend
   url: http://hellotend.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tend
+  slug: tend
+  matched_by: domain
 - name: Tennr
   url: https://www.tennr.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tennr
+  slug: tennr
+  matched_by: domain
 - name: TenSixteen Bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tensixteen-bio
+  slug: tensixteen-bio
+  matched_by: name-slug
 - name: tenXer *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenxer
+  slug: tenxer
+  matched_by: name-slug
 - name: Tessl
   url: https://www.tessl.io
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tessl
+  slug: tessl
+  matched_by: domain
 - name: Thatch
   url: https://thatch.ai
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thatch
+  in_network: true
+  is_api_provider: true
+  slug: thatch
+  matched_by: name-slug
 - name: The Climate Corporation *
   url: http://climate.com
   sector: frontier-tech
@@ -4708,40 +5159,45 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-pill-club
+  slug: the-pill-club
+  matched_by: name-slug
 - name: The Players' Tribune *
   url: http://theplayerstribune.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-players-tribune
+  slug: the-players-tribune
+  matched_by: domain
 - name: TheSkimm *
   url: http://theskimm.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theskimm
+  slug: theskimm
+  matched_by: domain
 - name: Thinking Machines Lab
   url: https://thinkingmachines.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thinking-machines-lab
+  slug: thinking-machines-lab
+  matched_by: domain
 - name: ThinkNear *
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thinknear
+  slug: thinknear
+  matched_by: name-slug
 - name: ThousandEyes *
   url: http://thousandeyes.com
   sector: enterprise
@@ -4756,9 +5212,10 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tmrw-life-sciences
+  slug: tmrw-life-sciences
+  matched_by: name-slug
 - name: Toast
   url: https://pos.toasttab.com
   sector: enterprise
@@ -4773,73 +5230,82 @@ companies:
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trace-neuroscience
+  slug: trace-neuroscience
+  matched_by: domain
 - name: Tracelytics *
   url: http://www.tracelytics.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tracelytics
+  slug: tracelytics
+  matched_by: name-slug
 - name: Transcriptic
   url: http://transcriptic.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transcriptic
+  slug: transcriptic
+  matched_by: domain
 - name: Translucent AI
   url: https://www.translucent.ai/
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: translucent-ai
+  slug: translucent-ai
+  matched_by: domain
 - name: Transphorm
   url: http://transphormusa.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transphorm
+  slug: transphorm
+  matched_by: domain
 - name: TravelJoy
   url: http://traveljoy.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: traveljoy
+  slug: traveljoy
+  matched_by: domain
 - name: Treeline Biosciences
   url: http://treelinebiosciences.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: treeline-biosciences
+  slug: treeline-biosciences
+  matched_by: name-slug
 - name: TrueLens
   url: http://truelens.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truelens
+  slug: truelens
+  matched_by: domain
 - name: TScan Therapeutics
   url: http://tscan.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tscan-therapeutics
+  slug: tscan-therapeutics
+  matched_by: domain
 - name: TuneIn
   url: http://tunein.com
   sector: consumer
@@ -4847,7 +5313,7 @@ companies:
   source: https://www.gv.com/portfolio
   slug: tunein
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Turo
   url: http://turo.com
@@ -4863,17 +5329,19 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twyla
+  slug: twyla
+  matched_by: domain
 - name: Typeface
   url: https://www.typeface.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: typeface
+  in_network: true
+  is_api_provider: true
+  slug: typeface
+  matched_by: domain
 - name: Uber *
   url: http://uber.com
   sector: consumer
@@ -4888,9 +5356,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ubersense
+  slug: ubersense
+  matched_by: domain
 - name: Udacity *
   url: http://udacity.com
   sector: consumer
@@ -4905,17 +5374,19 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ujet
+  slug: ujet
+  matched_by: domain
 - name: Ultromics
   url: http://ultromics.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ultromics
+  slug: ultromics
+  matched_by: domain
 - name: Unbabel
   url: http://unbabel.com
   sector: ai
@@ -4930,9 +5401,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: universe
+  slug: universe
+  matched_by: domain
 - name: Upbound
   url: http://upbound.io
   sector: ai
@@ -4947,105 +5419,118 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upstart
+  slug: upstart
+  matched_by: domain
 - name: Upthere *
   url: http://upthere.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upthere
+  slug: upthere
+  matched_by: domain
 - name: Urban Engines *
   url: https://en.wikipedia.org/wiki/Urban_Engines
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urban-engines
+  slug: urban-engines
+  matched_by: name-slug
 - name: Urban Machine
   url: https://urbanmachine.build
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urban-machine
+  slug: urban-machine
+  matched_by: domain
 - name: Ursa Computing
   url: http://ursacomputing.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ursa-computing
+  slug: ursa-computing
+  matched_by: domain
 - name: URX *
   url: http://urx.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urx
+  slug: urx
+  matched_by: domain
 - name: Vaccitech *
   url: http://vaccitech.co.uk
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vaccitech
+  slug: vaccitech
+  matched_by: domain
 - name: Vareto
   url: http://vareto.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vareto
+  slug: vareto
+  matched_by: domain
 - name: Veem
   url: http://veem.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: veem
+  in_network: true
+  is_api_provider: true
+  slug: veem
+  matched_by: domain
 - name: Ventus Therapeutics
   url: http://ventustx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ventus-therapeutics
+  slug: ventus-therapeutics
+  matched_by: domain
 - name: Veo Robotics *
   url: https://veobot.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veo-robotics
+  slug: veo-robotics
+  matched_by: domain
 - name: Vera Therapeutics
   url: http://veratx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vera-therapeutics
+  slug: vera-therapeutics
+  matched_by: domain
 - name: Verana Health
   url: http://veranahealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verana-health
+  slug: verana-health
+  matched_by: domain
 - name: Vercel
   url: http://vercel.com
   sector: ai
@@ -5060,74 +5545,82 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verse-enterprises
+  slug: verse
+  matched_by: domain
 - name: Verve Therapeutics *
   url: http://vervetx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verve-therapeutics
+  slug: verve-therapeutics
+  matched_by: domain
 - name: Veza *
   url: http://veza.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veza
+  slug: veza
+  matched_by: domain
 - name: Vicinitas Therapeutics
   url: https://vicinitastx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vicinitas-therapeutics
+  slug: vicinitas-therapeutics
+  matched_by: domain
 - name: VIDA *
   url: http://shopvida.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vida
+  slug: vida
+  matched_by: name-slug
 - name: VigLink *
   url: http://viglink.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: ralph-lauren
+  slug: viglink
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Vir Biotechnology
   url: http://vir.bio
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vir-biotechnology
+  slug: vir
+  matched_by: domain
 - name: Vitara Biomedical
   url: https://vitara.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vitara-biomedical
+  slug: vitara
+  matched_by: domain
 - name: Viz.ai
   url: http://viz.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vizai
+  slug: vizai
+  matched_by: domain
 - name: Vocode
   url: https://www.vocode.dev
   sector: ai
@@ -5142,65 +5635,73 @@ companies:
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio?sector=ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voicea
+  slug: voicea
+  matched_by: domain
 - name: Voicea *
   url: http://voicea.com
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voicea
+  slug: voicea
+  matched_by: name-slug
 - name: Voltage
   url: http://voltage.cloud
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voltage
+  slug: voltage
+  matched_by: domain
 - name: Voltron Data
   url: http://voltrondata.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voltron-data
+  slug: voltron-data
+  matched_by: domain
 - name: Vungle *
   url: http://vungle.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vungle
+  slug: vungle
+  matched_by: domain
 - name: Walker and Company *
   url: http://walkerandcompany.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: walker-and-company
+  slug: walker-and-company
+  matched_by: domain
 - name: Waltz Health *
   url: http://waltzhealth.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: waltz-health
+  slug: waltz-health
+  matched_by: domain
 - name: Wander *
   url: http://onwander.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wander
+  slug: wander
+  matched_by: name-slug
 - name: Warp
   url: http://warp.dev
   sector: enterprise
@@ -5215,9 +5716,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: watch-club
+  slug: watch-club
+  matched_by: domain
 - name: Waymo
   url: https://www.waymo.com
   sector: frontier-tech
@@ -5232,89 +5734,100 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wealthcom
+  slug: wealthcom
+  matched_by: domain
 - name: Weaveworks
   url: http://weave.works
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weaveworks
+  slug: weaveworks
+  matched_by: domain
 - name: Wingu *
   url: http://wingu.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wingu
+  slug: wingu
+  matched_by: domain
 - name: Witness AI
   url: https://witness.ai
   sector: ai
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: witness-ai
+  slug: witness-ai
+  matched_by: domain
 - name: Wonder
   url: https://www.wonder.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder
+  slug: wonder
+  matched_by: domain
 - name: Wonder Workshop
   url: http://makewonder.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder-workshop
+  slug: wonder-workshop
+  matched_by: domain
 - name: Wonderbly *
   url: http://wonderbly.com
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonderbly
+  slug: wonderbly
+  matched_by: domain
 - name: Xilis
   url: http://xilis.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xilis
+  slug: xilis
+  matched_by: domain
 - name: Yellowbrick Data
   url: http://yellowbrickdata.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellowbrick-data
+  slug: yellowbrick-data
+  matched_by: domain
 - name: Yesware *
   url: http://yesware.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yesware
+  slug: yesware
+  matched_by: domain
 - name: Yieldify *
   url: http://yieldify.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yieldify
+  slug: yieldify
+  matched_by: domain
 - name: Yieldmo
   url: http://yieldmo.com
   sector: enterprise
@@ -5329,46 +5842,51 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuga-labs
+  slug: yuga-labs
+  matched_by: domain
 - name: ZappRx *
   url: http://zapprx.com
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zapprx
+  slug: zapprx
+  matched_by: domain
 - name: Zencoder *
   url: http://zencoder.com
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zencoder
+  in_network: true
+  is_api_provider: true
+  slug: zencoder
+  matched_by: domain
 - name: Zephyr Health *
   sector: life-sciences
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zephyr-health
+  slug: zephyr-health
+  matched_by: name-slug
 - name: Zest
   url: https://www.zest.co
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zest
+  in_network: true
+  is_api_provider: true
+  slug: zest
+  matched_by: name-slug
 - name: Zipline
   url: http://flyzipline.com
   sector: frontier-tech
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: zipline
+  slug: zipline-international
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
