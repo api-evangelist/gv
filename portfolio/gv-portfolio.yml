@@ -1436,7 +1436,7 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: digits
+  slug: digits-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -4991,7 +4991,7 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.gv.com/portfolio
-  slug: swell
+  slug: swell-io
   in_network: true
   is_api_provider: true
   matched_by: name-slug
