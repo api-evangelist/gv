@@ -11,6 +11,17 @@ description: >-
   portfolio companies across North America, Europe, and Israel. The firm has backed notable companies
   including Uber, Slack, GitLab, Nest, Flatiron Health, Lemonade, Vercel, Isomorphic Labs, and insitro,
   with a track record of more than 80 IPOs and 230+ M&A exits.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
