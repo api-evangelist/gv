@@ -5270,15 +5270,6 @@ companies:
   is_api_provider: false
   slug: transphorm
   matched_by: domain
-- name: TravelJoy
-  url: http://traveljoy.com
-  sector: consumer
-  status: unknown
-  source: https://www.gv.com/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: traveljoy
-  matched_by: domain
 - name: Treeline Biosciences
   url: http://treelinebiosciences.com
   sector: life-sciences
