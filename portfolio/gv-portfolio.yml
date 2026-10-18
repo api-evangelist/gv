@@ -5007,7 +5007,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: swell
-  x-url-candidate: https://www.swell.com/
+  x-url-rejected: https://www.swell.com/
 - name: Swing Education
   url: http://swingeducation.com
   sector: consumer
