@@ -1,4 +1,235 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: gv
-leads: []
+leads:
+- name: AMP Robotics
+  url: https://ampsortation.com
+  suggested_slug: ampsortation-com
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio?sector=ai
+  stub_created: false
+- name: AngelList
+  url: http://angel.co
+  suggested_slug: angel-co
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Arda Therapeutics
+  url: http://ardatherapeutics.com
+  suggested_slug: ardatherapeutics-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: BBOT
+  url: https://bbotx.com
+  suggested_slug: bbotx-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Blavity
+  url: http://blavity.com
+  suggested_slug: blavity-com
+  sector: consumer
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Diverge Health
+  url: https://divergecares.com
+  suggested_slug: divergecares-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Farmers Business Network
+  url: http://farmersbusinessnetwork.com
+  suggested_slug: farmersbusinessnetwork-com
+  sector: frontier-tech
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Fathom
+  url: http://fathomhealth.co
+  suggested_slug: fathomhealth-co
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Genesis
+  url: http://genesis.global
+  suggested_slug: genesis-global
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Gravity
+  url: https://gravitymobility.com
+  suggested_slug: gravitymobility-com
+  sector: frontier-tech
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Kindred *
+  url: http://kindred.ai
+  suggested_slug: kindred-ai
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Luminate *
+  url: http://www.luminate.com
+  suggested_slug: luminate-com
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Makani *
+  url: http://google.com/makani
+  suggested_slug: google-com
+  sector: frontier-tech
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Mestag Therapeutics
+  url: http://mestagtx.com
+  suggested_slug: mestagtx-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Osmo
+  url: https://osmo.ai/
+  suggested_slug: osmo-ai
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Parse *
+  url: http://parse.com
+  suggested_slug: parse-com
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Periscope *
+  url: http://periscope.tv
+  suggested_slug: periscope-tv
+  sector: consumer
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Phoebe
+  url: https://phoebe.ai
+  suggested_slug: phoebe-ai
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Pixie Labs *
+  url: http://pixielabs.ai
+  suggested_slug: pixie-labs
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Puppet Labs *
+  url: http://puppetlabs.com
+  suggested_slug: puppet-labs
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Republic Project *
+  url: ''
+  suggested_slug: republic-project
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: SambaNova Systems
+  url: http://sambanovasystems.com
+  suggested_slug: sambanovasystems-com
+  sector: ai
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Santa Ana Bio
+  url: https://www.santaanabio.com
+  suggested_slug: santaanabio-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: ScoutRFP *
+  url: http://scoutrfp.com
+  suggested_slug: scoutrfp-com
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Spero Therapeutics *
+  url: http://sperotherapeutics.com
+  suggested_slug: sperotherapeutics-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Spring *
+  url: http://shopspring.com
+  suggested_slug: shopspring-com
+  sector: consumer
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Swell *
+  url: ''
+  suggested_slug: swell
+  sector: consumer
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Thatch
+  url: https://thatch.ai
+  suggested_slug: thatch
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: TMRW Life Sciences *
+  url: https://tmrw.org
+  suggested_slug: tmrw-org
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Treeline Biosciences
+  url: http://treelinebiosciences.com
+  suggested_slug: treelinebiosciences-com
+  sector: life-sciences
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Urban Engines *
+  url: https://en.wikipedia.org/wiki/Urban_Engines
+  suggested_slug: wikipedia-org
+  sector: frontier-tech
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Wander *
+  url: http://onwander.com
+  suggested_slug: onwander-com
+  sector: consumer
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
+- name: Weaveworks
+  url: http://weave.works
+  suggested_slug: weave-works
+  sector: enterprise
+  source_vc: gv
+  source: https://www.gv.com/portfolio
+  stub_created: false
